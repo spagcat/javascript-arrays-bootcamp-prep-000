@@ -13,10 +13,12 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function accessElementInArray(array, index) {
-  var thisArray = array;
-  console.log(thisArray[index]);
+  var myArray = array;
+  console.log(myArray[index]);
 }
 
-//function destructivelyRemoveElementFromBeginningOfArray(array) {
-//  var 
-//}
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  var myArray = array;
+  myArray.shift()
+  return myArray
+}

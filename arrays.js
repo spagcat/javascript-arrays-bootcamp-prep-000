@@ -13,6 +13,6 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function accessElementInArray(array, index) {
-  var thisArray = ["blah"];
-  console.log(thisArray[0]);
+  var thisArray = array;
+  console.log(thisArray[index]);
 }
